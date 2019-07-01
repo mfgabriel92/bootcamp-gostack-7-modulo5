@@ -1,10 +1,13 @@
 import React from 'react'
+import Routes from './routes'
+import Styles from './Styles'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hey</h1>
-    </div>
+    <>
+      <Styles />
+      <Routes />
+    </>
   )
 }
 
